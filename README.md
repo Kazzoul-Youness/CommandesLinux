@@ -162,3 +162,9 @@ MAILTO="xavki@moi.fr"
 ```
 
 
+
+----------------------------------------------------------------
+
+* * * * * root touch /tmp/start.log && echo "$(date)" >> /tmp/youness.txt && touch /tmp/stop.log
+
+
