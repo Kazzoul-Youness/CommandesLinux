@@ -162,9 +162,12 @@ MAILTO="xavki@moi.fr"
 ```
 
 
-
+<br>
 ----------------------------------------------------------------
+<br>
+Création de deux fichier log le start et stop pour calculer le temps de début et la fin, tres pratique pour les sauvgardes.
 
+```
 * * * * * root touch /tmp/start.log && echo "$(date)" >> /tmp/youness.txt && touch /tmp/stop.log
-
+```
 
